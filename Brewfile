@@ -41,10 +41,12 @@ brew "pandoc"
 brew "perl"
 brew "pipx"
 brew "postgresql@14"
+brew "powerlevel10k"
 brew "python@3.9", link: false
 brew "redis"
 brew "stow"
 brew "swift"
+brew "telnet", link: false
 brew "tmux"
 brew "ttyd"
 brew "yarn"
@@ -54,13 +56,22 @@ brew "hivemq/mqtt-cli/mqtt-cli"
 brew "teamookla/speedtest/speedtest"
 cask "alt-tab"
 mas "Amphetamine", id: 937984704
+mas "GarageBand", id: 682658836
+mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
+mas "Markdown Editor", id: 1458220908
 mas "Ninox Database", id: 901110441
+mas "NordVPN", id: 905953485
+mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Oscilloppoi", id: 1102313524
+mas "Pages", id: 409201541
 mas "Telegram", id: 747648890
 mas "Trello", id: 1278508951
+mas "UpNote", id: 1398373917
 mas "WhatsApp", id: 1147396723
+mas "WorkingHours", id: 1495643653
+mas "Xcode", id: 497799835
 vscode "aaron-bond.better-comments"
 vscode "acidic9.p5js-snippets"
 vscode "christian-kohler.path-intellisense"

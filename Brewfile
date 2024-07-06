@@ -23,6 +23,7 @@ brew "fzf"
 brew "ghostscript"
 brew "gifsicle"
 brew "git"
+brew "handbrake"
 brew "hurl"
 brew "imagemagick"
 brew "inetutils"
@@ -55,23 +56,28 @@ brew "codeclimate/formulae/codeclimate"
 brew "hivemq/mqtt-cli/mqtt-cli"
 brew "teamookla/speedtest/speedtest"
 cask "alt-tab"
+cask "firefox"
+cask "geektool"
+cask "iterm2"
+cask "nextcloud"
+cask "signal"
+cask "spotify"
+cask "telegram-desktop"
+cask "visual-studio-code"
+cask "vlc"
+cask "whatsapp"
+cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
-mas "Markdown Editor", id: 1458220908
 mas "Ninox Database", id: 901110441
-mas "NordVPN", id: 905953485
 mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Oscilloppoi", id: 1102313524
 mas "Pages", id: 409201541
-mas "Telegram", id: 747648890
 mas "Trello", id: 1278508951
 mas "UpNote", id: 1398373917
-mas "WhatsApp", id: 1147396723
-mas "WorkingHours", id: 1495643653
-mas "Xcode", id: 497799835
 vscode "aaron-bond.better-comments"
 vscode "acidic9.p5js-snippets"
 vscode "christian-kohler.path-intellisense"

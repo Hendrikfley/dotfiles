@@ -1,34 +1,102 @@
-cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
-
-brew 'cloudflared'
-brew 'imagemagick'
-brew 'postgresql@14'
-brew 'redis'
-brew 'ruby-build'
-brew 'spaceman-diff'
-brew 'spark'
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
-brew 'wget'
-brew 'yt-dlp'
-
-cask '1password'
-cask 'airtable'
-cask 'android-platform-tools'
-cask 'arq'
-cask 'diffusionbee'
-cask 'handbrake'
-cask 'messenger'
-cask 'notion-calendar'
-cask 'plex'
-cask 'sonos'
-cask 'transmission'
-cask 'raycast'
-cask 'warp'
-cask 'whatsapp'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'zed'
-cask 'zoom'
+tap "codeclimate/formulae"
+tap "hivemq/mqtt-cli"
+tap "homebrew/bundle"
+tap "mczachurski/wallpapper"
+tap "teamookla/speedtest"
+brew "zstd"
+brew "libtiff"
+brew "little-cms2"
+brew "python@3.12"
+brew "cmake"
+brew "detox"
+brew "dfu-util"
+brew "docker", link: false
+brew "docker-compose", link: false
+brew "esphome"
+brew "harfbuzz"
+brew "openjpeg"
+brew "libass"
+brew "pango"
+brew "tesseract"
+brew "ffmpeg"
+brew "fzf"
+brew "ghostscript"
+brew "gifsicle"
+brew "git"
+brew "hurl"
+brew "imagemagick"
+brew "inetutils"
+brew "jq"
+brew "libcoap"
+brew "libwebsockets"
+brew "libxml2"
+brew "mas"
+brew "openjdk"
+brew "maven"
+brew "ninja"
+brew "node", link: false
+brew "node@14"
+brew "nvm"
+brew "pandoc"
+brew "perl"
+brew "pipx"
+brew "postgresql@14"
+brew "python@3.9", link: false
+brew "redis"
+brew "stow"
+brew "swift"
+brew "tmux"
+brew "ttyd"
+brew "yarn"
+brew "zsh"
+brew "codeclimate/formulae/codeclimate"
+brew "hivemq/mqtt-cli/mqtt-cli"
+brew "teamookla/speedtest/speedtest"
+cask "alt-tab"
+mas "Amphetamine", id: 937984704
+mas "Magnet", id: 441258766
+mas "Ninox Database", id: 901110441
+mas "OneDrive", id: 823766827
+mas "Oscilloppoi", id: 1102313524
+mas "Telegram", id: 747648890
+mas "Trello", id: 1278508951
+mas "WhatsApp", id: 1147396723
+vscode "aaron-bond.better-comments"
+vscode "acidic9.p5js-snippets"
+vscode "christian-kohler.path-intellisense"
+vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "dskwrk.vscode-generate-getter-setter"
+vscode "ecmel.vscode-html-css"
+vscode "esbenp.prettier-vscode"
+vscode "formulahendry.auto-rename-tag"
+vscode "k--kato.intellij-idea-keybindings"
+vscode "lllllllqw.jsdoc"
+vscode "mlueckert.a-frame-completion"
+vscode "mrmlnc.vscode-duplicate"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-ceintl.vscode-language-pack-de"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.wordcount"
+vscode "platformio.platformio-ide"
+vscode "redhat.java"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.liveserver"
+vscode "samplavigne.p5-vscode"
+vscode "svelte.svelte-vscode"
+vscode "twxs.cmake"
+vscode "valentjn.vscode-ltex"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "vue.volar"
+vscode "wallabyjs.quokka-vscode"
+vscode "yzhang.markdown-all-in-one"
